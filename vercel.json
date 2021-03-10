@@ -1,0 +1,13 @@
+{
+	"name":"Scraping Olx",
+	"version":"1.0",
+	"Builds":[
+		{
+			"src":"*py",
+			"use":"@tiagodias/olx"
+		}
+	],
+	"routes":[
+		{"src":"(.*)", "dest":"teste.py"}
+	]
+}
