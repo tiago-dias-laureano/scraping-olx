@@ -7,7 +7,11 @@ app.install(JSONPrettyPlugin(indent=2, pretty_production=True))
 
 @app.get('/<name>')
 def index(name)
-    def index(name):
         resp = start(name)
 	return resp
+
+@app.get('/')
+def name():
+    return {"status":"ok"}
+
 app.run(host='0.0.0.0', port=80)
