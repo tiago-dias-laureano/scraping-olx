@@ -1,0 +1,4 @@
+bottle
+bottle-json-pretty
+requests-html
+pyppdf
